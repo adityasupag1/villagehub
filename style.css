@@ -1,0 +1,39 @@
+.container{
+    background-color: rgb(249, 249, 249);
+    height:auto;
+    border: 2px black solid;
+ 
+}
+h1{
+    color: brown;
+    font-size: 50px;
+    font-family:Haettenschweiler;
+    font-weight: bold;
+    margin-top:3px;
+    margin-bottom: 1px;
+  
+}
+
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+position: sticky;
+overflow: hidden;
+background-color: rgb(13, 11, 25);
+}
+li{
+float: left ;
+}
+li a{
+    font-weight: 900;
+padding: 14px 50px;
+display: block;
+text-align: center;
+color: white;
+text-decoration:none;
+}
+li a:hover{
+background-color: rgb(40, 29, 235);
+}
