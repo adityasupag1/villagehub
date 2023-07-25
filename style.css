@@ -104,7 +104,7 @@ height: 2000px;
 header{
 
 overflow: hidden;
-position: sticky;
+position: relative;
 top: 0;
 width: 100%;
 }
