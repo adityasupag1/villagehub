@@ -1,21 +1,24 @@
-.container{
-    background-color: rgb(249, 249, 249);
-    height:auto;
-    border: 2px black solid;
- 
+*{
+    box-sizing: border-box;
+  }
+  .container{
+background-color: rgb(249, 249, 249);
+height:auto;
+border: 2px black solid;
+
 }
 h1{
-    color: brown;
-    font-size: 50px;
-    font-family:Haettenschweiler;
-    font-weight: bold;
-    margin-top:3px;
-    margin-bottom: 1px;
-  
+color: brown;
+font-size: 50px;
+font-family:Haettenschweiler;
+font-weight: bold;
+margin-top:3px;
+margin-bottom: 1px;
+
 }
 
 
-ul{
+.navigation{
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -23,17 +26,150 @@ position: sticky;
 overflow: hidden;
 background-color: rgb(13, 11, 25);
 }
-li{
+.navi{
 float: left ;
 }
-li a{
-    font-weight: 900;
+.nav .navi{
+font-weight: 900;
 padding: 14px 50px;
 display: block;
 text-align: center;
 color: white;
 text-decoration:none;
 }
-li a:hover{
+.nav .navi:hover{
 background-color: rgb(40, 29, 235);
+}
+.runningText{
+margin-top: 0px;
+background-color: white;
+padding-top: 30px;
+}
+.anchor{
+text-align: center;
+text-decoration: none;
+margin-left: 30px;
+}
+
+a.anchor:hover{
+background-color: rgb(123, 184, 26);
+}
+p{
+display: inline;
+}
+#signup{
+display: block;
+text-decoration: none;
+float: right;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+
+padding: 10px;
+margin: 5px;
+border-radius: 5px;
+background-color: rgb(9, 211, 42);
+
+}
+#login{
+color: white;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: block;
+text-decoration: none;
+float: right;
+padding: 10px;
+margin: 5px;
+border-radius: 5px;
+background-color: rgb(9, 211, 42);
+}
+#login:hover{
+background-color: rgb(10, 9, 8);
+}
+#signup:hover{
+background-color: rgb(0, 0, 0);
+}
+footer{
+text-align: center;
+margin-top: 20px;
+}
+article{
+width:600px;
+font-size: large;
+margin-left: 200px;
+}
+.main{
+
+height: 2000px;
+
+}
+header{
+
+overflow: hidden;
+position: sticky;
+top: 0;
+width: 100%;
+}
+.slogan{
+margin-top: 0px;
+}
+.flex-container{
+display: flex;
+background-color: rgb(255, 255, 255);
+}
+.flex-left{
+flex:60%;
+padding: 10px;
+}
+.flex-right{
+flex:40%;
+}
+@media (max-width: 800px) {
+.flex-container {
+flex-direction: column;
+}
+}
+img{
+padding: 20px;
+padding-top:0px;
+width: 100%;
+height: 250px;
+}
+
+.profile{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+height: auto;
+border: green solid 4px;
+border-radius: 80%;
+padding: 0;
+
+
+} 
+.down{
+text-align: center;
+line-height: 0;
+
+}
+h4.down{
+color: rgba(38, 45, 45, 0.591);
+}
+.linkss{
+padding: 50px;
+background-color: rgb(54, 54, 227);
+border: solid black 1px;
+height:350px;
+}
+.ramu{
+overflow: hidden;
+line-height: 1.5;
+
+}
+.inner{
+color: white;
+text-decoration: none;
+font-size: 20px;
+}
+li .inner:hover{
+color: red;
 }
