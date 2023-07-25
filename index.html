@@ -6,105 +6,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <title>VillageHub</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        .runningText{
-            margin-top: 0px;
-            background-color: white;
-            padding-top: 30px;
-        }
-   .anchor{
-    text-align: center;
-    text-decoration: none;
-   margin-left: 30px;
-   }
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-   a.anchor:hover{
-    background-color: rgb(123, 184, 26);
-   }
-   p{
-    display: inline;
-   }
-   #signup{
-     display: block;
-       text-decoration: none;
-       float: right;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-
-     padding: 10px;
-     margin: 5px;
-     border-radius: 5px;
-     background-color: rgb(9, 211, 42);
-
-   }
-  #login{
-    color: white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: block;
-      text-decoration: none;
-      float: right;
-      padding: 10px;
-     margin: 5px;
-     border-radius: 5px;
-     background-color: rgb(9, 211, 42);
-  }
-  #login:hover{
-    background-color: rgb(10, 9, 8);
-   
     
-  }
-  #signup:hover{
-    background-color: rgb(0, 0, 0);
-  }
-
- 
- footer{
-    text-align: center;
-    margin-top: 20px;
- }
- /* section.aims{
-    margin-left: 100px;
-    width:500px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
- } */
-
- article{
-    width:600px;
-    font-size: large;
-    margin-left: 200px;
- }
- .main{
-    
-    height: 1600px;
-     
- }
- header{
-   
-    overflow: hidden;
-    position: sticky;
-   top: 0;
-   width: 100%;
- }
-.slogan{
-    margin-top: 0px;
-}
-td#aims{
-    width: 600px;
-    margin-left: 100px;
-    height: auto;
-    padding: 30px;
-    font-size:20px;
-
-}
-td#image{
-    width: 400px;
-    margin-left: 100px;
-}
-td{
-    width: 800px;
-}
-
-    </style>
 </head>
 <body>
 
@@ -120,12 +24,12 @@ td{
               </div>
         
         <!-- navigation menu -->
-                <ul>
-             <li><a href="#" class="navi">Home</a></li>
-             <li> <a href="#" class="navi">Services</a></li>
-             <li><a href="#" class="navi">Contact Us</a></li>
-             <li><a href="#" class="navi">About</a></li>
-             <li> <a href="#" class="navi">Complain</a></li>
+                <ul class="navigation">
+          <li class="nav"><a href="#" class="navi"> <i class="fa fa-home"></i> <i class="fa fa-fw"></i>Home</a></li>
+             <li  class="nav"> <a href="#" class="navi"></i>Services</a></li>
+             <li  class="nav"><a href="#" class="navi"><i class="fa fa-fw fa-envelope"></i> Contact</a></li>
+             <li  class="nav"><a href="#" class="navi">About</a></li>
+             <li  class="nav"> <a href="#" class="navi">Complain</a></li>
             </ul>
         
         
@@ -138,50 +42,49 @@ td{
                     </div>
           
     </header>
+<!-- main -->
 <div class="main">
         <!-- motive -->
-        <!-- <section class="aims">
-           
-            <p class="aims">
-     Welcome to Village Hub, where our mission is to bridge the gap between villagers 
-       and their village principal! We believe in fostering direct communication,
-         empowering villagers to voice their concerns, ideas, and aspirations 
-              directly to their leader. Our platform aims to strengthen 
-                 community bonds, enhance transparency, and empower 
-                    positive change for a thriving village life.
-                        Together, let's build a brighter, 
-                              united, and prosperous 
-                                  village for all!
-                               </p>
-          </section> -->
-   
-          <table >
-            <tr>
-                <td id="aims">
-                    <h2 style="font-size: 40px;" >Our Aims</h2>
-                    <p>Welcome to Village Hub, the platform that bridges the gap between villagers and their village principal! Our website's core motive is to establish a direct and seamless connection, fostering open communication and understanding within rural communities. We recognize the significance of empowering villagers by giving them a voice and enabling them to express their concerns, suggestions, and aspirations directly to their village principal.
+          <h2 style="font-size: 40px; color:green" >Our Aims</h2>
 
-                        Through Village Hub, villagers gain a reliable channel to share their ideas, issues, and feedback, which will be promptly conveyed to the village principal. Our platform aims to facilitate constructive dialogue, ensuring that the concerns of the community are heard, and necessary actions are taken for their welfare.
-                        
-                        Moreover, Village Hub encourages the village principal to provide updates on ongoing projects, upcoming events, and initiatives, promoting transparency and accountability. By nurturing this two-way interaction, we envision a stronger sense of unity, trust, and progress within each village.
-                        
-                        Join us on this transformative journey as we empower villagers, strengthen communities, and build a brighter future together through effective communication on Village Hub!</p>
-                </td>
-                <td id="image">
-                    <img src="https://tse3.mm.bing.net/th?id=OIP.KTLJCNA26ylYiZGv1RsvEgHaEc&pid=ImgDet&rs=1" alt="village">
+          <div class="flex-container">
+            <div class="flex-left">
+              <p>Welcome to Village Hub, the platform that bridges the gap between villagers and their village principal! Our website's core motive is to establish a direct and seamless connection, fostering open communication and understanding within rural communities. We recognize the significance of empowering villagers by giving them a voice and enabling them to express their concerns, suggestions, and aspirations directly to their village principal.
 
-                </td>
-            </tr>
-          </table>
-   
-  <article>
+                  Through Village Hub, villagers gain a reliable channel to share their ideas, issues, and feedback, which will be promptly conveyed to the village principal. Our platform aims to facilitate constructive dialogue, ensuring that the concerns of the community are heard, and necessary actions are taken for their welfare.
+                  
+                  Moreover, Village Hub encourages the village principal to provide updates on ongoing projects, upcoming events, and initiatives, promoting transparency and accountability. By nurturing this two-way interaction, we envision a stronger sense of unity, trust, and progress within each village.
+                  
+                  Join us on this transformative journey as we empower villagers, strengthen communities, and build a brighter future together through effective communication on Village Hub!</p>
+          
+            </div>
+            <div class="flex-right">
+              <img  src="https://tse3.mm.bing.net/th?id=OIP.KTLJCNA26ylYiZGv1RsvEgHaEc&pid=ImgDet&rs=1" alt="village">
 
-  </article>
-   
-   
+            </div>
+          </div>
+      
+  </div>
+  
+ <!-- profile -->
+<div class="down">
+<h1 class="down" style="font-size: 40px; padding-bottom: 32px; color: rgb(84, 0, 66); margin-bottom: 20px;">Team Member</h1>
+<img src="12.png" alt="profile" class="profile" style="width:200px">
+<h3 class="down">Aditya Raj</h3>
+  <h4 class="down">IIIT Bhagalpur</h4>
 </div>
-
-
+<!-- down section -->
+<section class="linkss">
+  <ul class="ramu">
+     <li  class="ramu" id="h"><a href="#"  class="inner">Our Mission</a></li>
+     <li  class="ramu"><a href="#" class="inner">Donate</a></li>
+     <li  class="ramu"><a href="#" class="inner">Complains</a></li>
+     <li  class="ramu"><a href="#" class="inner">Feedback</a></li>
+     <li  class="ramu"><a href="#" class="inner">Follow Us</a></li>
+     <li  class="ramu"><a href="#" class="inner">services</a></li>
+     <li  class="ramu"><a href="#" class="inner">Terms and condition</a></li>
+  </ul>
+</section>
 
        <footer >
         <p>&copyVillageHub. All right Reserved@2023</p>
